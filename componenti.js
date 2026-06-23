@@ -73,7 +73,7 @@ class FooterSito extends HTMLElement {
                 <li>Ente del Terzo Settore (ETS) iscritto al RUNTS in data 07/07/2025</li>
                 <li><a href="00_01_privacy.html">Privacy Policy</a></li>
                 <li><a href="00_02_cookies.html">Cookie Policy</a></li>
-                <li><b>Tutti i diritti riservati.</b></li>
+                <li>Tutti i diritti riservati</li>
             </ul>
         </footer>
     `;
