@@ -3,7 +3,7 @@
 // ==========================================
 // Incrementa questo numero (es. '1.1', '1.2') quando modifichi i testi sotto.
 // Forzerà i dispositivi (inclusi iPhone) a scaricare la nuova versione.
-const VERSIONE_ATTUALE = '1.1'; 
+const VERSIONE_ATTUALE = '1.2'; 
 
 function controllaVersioneComponente() {
   const versioneSalvata = localStorage.getItem('versione_componenti_sito');
@@ -62,8 +62,8 @@ class HeaderSito extends HTMLElement {
                 <summary>Progetta Accessibile</summary>
                 <ul id="progetta-accessibile">
                     <li><a href="03_01_accessibile.html">Capire l'accessibilità</a></li>
-                    <li><a href="03_02_videogiochi.html">Progettare videogiochi</a></li>
-                    <li><a href="03_03_acc_tavolo.html">Progettare giochi da tavolo</a></li>    
+                    <li><a href="03_02_videogiochi.html">Videogiochi</a></li>
+                    <li><a href="03_03_acc_tavolo.html">Giochi da tavolo e di ruolo</a></li>    
                 </ul>
             </details>
         </nav>
