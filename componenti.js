@@ -65,13 +65,15 @@ class FooterSito extends HTMLElement {
         <footer class="site-footer">
             <h2>Dati associativi</h2>
             <ul>
-                <li><b>Tutti i diritti riservati.</b></li>
+                <li><b>Associazione Giochiamoci! APS</b></li>
                 <li><b>Sede legale:</b> Via Federico de Roberto 5, 20152 Milano (MI)</li>
                 <li><b>Codice Fiscale:</b> 14228970969</li>
-                <li><b>Iscrizione RUNTS:</b> Rep. n. 155547</li>
-                <li>Ente del Terzo Settore (ETS) iscritto al RUNTS in data <b>07/07/2025</b>.</li>
+                <li><b>Partita IVA:</b> 14228970969</li>
+                <li><b>Codice RUNTS:</b> 155547</li>
+                <li>Ente del Terzo Settore (ETS) iscritto al RUNTS in data 07/07/2025</li>
                 <li><a href="00_01_privacy.html">Privacy Policy</a></li>
                 <li><a href="00_02_cookies.html">Cookie Policy</a></li>
+                <li><b>Tutti i diritti riservati.</b></li>
             </ul>
         </footer>
     `;
