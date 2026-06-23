@@ -47,7 +47,7 @@ class HeaderSito extends HTMLElement {
                 <summary>Progetta Accessibile</summary>
                 <ul id="progetta-accessibile">
                     <li><a href="03_01_accessibile.html">Capire l'accessibilità</a></li>
-                    <li><a href="03_02_videogioco.html">Progettare videogiochi</a></li>
+                    <li><a href="03_02_videogiochi.html">Progettare videogiochi</a></li>
                     <li><a href="03_03_acc_tavolo.html">Progettare giochi da tavolo</a></li>    
                 </ul>
             </details>
@@ -62,9 +62,18 @@ class HeaderSito extends HTMLElement {
 class FooterSito extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-      <footer>
-          <p>&copy; 2026 Giochiamoci! APS. All rights reserved.</p>
-      </footer>
+        <footer class="site-footer">
+            <p><b>&copy; 2026 ASSOCIAZIONE GIOCHIAMOCI! APS</b></p>
+            <ul>
+                <li><b>Tutti i diritti riservati.</b></li>
+                <li><b>Sede legale:</b> Via Federico de Roberto 5, 20152 Milano (MI)</li>
+                <li><b>Codice Fiscale:</b> 14228970969</li>
+                <li><b>Iscrizione RUNTS:</b> Rep. n. 155547</li>
+                <li>Ente del Terzo Settore (ETS) iscritto al RUNTS in data <b>07/07/2025</b>.</li>
+                <li><a href="00_01_privacy.html">Privacy Policy</a></li>
+                <li><a href="00_02_cookies.html">Cookie Policy</a></li>
+            </ul>
+        </footer>
     `;
   }
 }
