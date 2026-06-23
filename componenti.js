@@ -11,7 +11,7 @@ class HeaderSito extends HTMLElement {
             <!-- Sotto-oggetto verticale per i testi -->
             <div class="testi-header">
                 <h1>Giochiamoci! APS</h1>
-                <p class="motto">Perché anche giocare è un diritto di tutti!</p>
+                <p class="motto">Perché anche giocare è un diritto di tutte!</p>
             </div>
     
         </div>
