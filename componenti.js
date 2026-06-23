@@ -3,7 +3,7 @@
 // ==========================================
 // Incrementa questo numero (es. '1.1', '1.2') quando modifichi i testi sotto.
 // Forzerà i dispositivi (inclusi iPhone) a scaricare la nuova versione.
-const VERSIONE_ATTUALE = '1.2'; 
+const VERSIONE_ATTUALE = '1.3'; 
 
 function controllaVersioneComponente() {
   const versioneSalvata = localStorage.getItem('versione_componenti_sito');
